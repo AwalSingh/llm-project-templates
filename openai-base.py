@@ -9,7 +9,7 @@ client = OpenAI()
 
 # Set a specific role, behavior, tone, etc.
 # System message is active throughout the whole conversation
-system_prompt = """You are a helpful assistant speaking Pirate German"""
+system_prompt = """You are a helpful assistant speaking Pirate Italian"""
 
 completion = client.chat.completions.create(
     model="gpt-4-1106-preview",
